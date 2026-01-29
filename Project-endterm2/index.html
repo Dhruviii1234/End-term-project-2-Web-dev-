@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purple Smart Task Tracker</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <header class="site-header">
+    <div class="header-left">
+      <h1>Smart Task Tracker</h1>
+      <p>Organize your life, aesthetically ✨</p>
+    </div>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <main class="app">
+   
+    <section class="stats">
+      <div class="stat">
+        <span id="totalTasks">0</span>
+        <p>Total Tasks</p>
+      </div>
+      <div class="stat">
+        <span id="completedTasks">0</span>
+        <p>Completed</p>
+      </div>
+    </section>
+
+    
+    <section class="task-creator">
+      <input type="text" id="taskInput" placeholder="What do you need to do?" />
+      <select id="category">
+        <option value="General">General</option>
+        <option value="Study">Study</option>
+        <option value="Health">Health</option>
+        <option value="Personal">Personal</option>
+      </select>
+      <button id="addTask">Add</button>
+    </section>
+
+   
+    <ul id="taskList" class="task-list"></ul>
+
+   
+    <footer class="footer">
+      <button id="clearCompleted">Clear Completed</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
