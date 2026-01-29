@@ -1,4 +1,4 @@
-Smart Task Tracker
+**Smart Task Tracker**
 
 Smart Task Tracker is a simple and visually pleasing task management web application built using HTML, CSS, and JavaScript.  
 It helps users organize their daily tasks by category, track completion progress, and maintain focus — all in a clean purple-themed interface.
